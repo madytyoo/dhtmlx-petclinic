@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+  <application>dhtmlx-petclinic</application>
+
+    <system-properties>
+        <property name="com.mylaensys.dhtmlx.adapter.DefaultDataFormatter.DateFormat" value="yyyy-MM-dd" />
+
+    </system-properties>
+
+  <version>1</version>
+    <sessions-enabled>true</sessions-enabled>
+    <precompilation-enabled>true</precompilation-enabled>
+    <static-files>
+        <include path="imgs/**.*"/>
+        <include path="images/**.*"/>
+        <include path="styles/**.*"/>
+        <include path="dhtmlx.css"/>
+        <include path="dhtmlx_custom.css"/>
+        <include path="dhtmlx.js"/>
+        <include path="docklet-web.min.js"/>
+        <include path="jquery.min.js"/>
+    </static-files>
+    <threadsafe>true</threadsafe>
+
+</appengine-web-app>
